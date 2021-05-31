@@ -21,13 +21,13 @@ v. pXXX where XXX is a percentile between 0...100. For example p10 is the 10th p
 You should have the following items on your system:
 
 
-**1)-** docker.
+**1)-** Docker.
 
 
 **2)-** Command line tool.
 
 
-**3)-** flask.
+**3)-** Flask.
 
 
 ## Starting services locally with flask
