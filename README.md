@@ -52,4 +52,21 @@ http://localhost:5000/
 
  
 ## Starting services locally Docker
+*  Git all the files to a directory in your system.
 
+   `git clone https://github.com/saeedaboyonis/SeeTreeTask.git`
+
+* Navigate to this directory with command line tool.
+
+    `cd /the_directory_path/`
+
+* Run the project in docker with these commands :
+
+
+    `docker build -t main .`
+     </br>
+     `docker run -id -p 5000:5000 -t main`
+     
+* Navigate to this url in your browser:
+   </br>
+http://localhost:5000/
