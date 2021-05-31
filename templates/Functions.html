@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Statics Functions</title>
+    <style>
+.button {
+  background-color: black;
+  border: 4;
+  color: grey;
+  padding: 15px 32px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+    <h1 align="center">Functions</h1>
+</head>
+<body style="background-color:powderblue;">
+<hr color="black">
+<center>
+<button onclick="location.href='http://localhost:5000/stats/{{img_name}}/min'" type="button" class="button">
+         Minimum</button>
+<button onclick="location.href='http://localhost:5000/stats/{{img_name}}/max'" type="button" class="button">
+         Maximum</button>
+<button onclick="location.href='http://localhost:5000/stats/{{img_name}}/mean'" type="button" class="button">
+         Mean</button>
+<button onclick="location.href='http://localhost:5000/stats/{{img_name}}/median'" type="button" class="button">
+         Median</button>
+<button onclick="location.href='http://localhost:5000/stats/{{img_name}}/p100'" type="button" class="button">
+         Percentile</button>
+</center>
+<hr color="black">
+</body>
+</html>
