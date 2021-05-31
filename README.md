@@ -6,21 +6,32 @@ In this web application we will handle calculation of image statistics, the imag
 For example you can try opening https://storage.googleapis.com/seetree-demo-open/IMG_1.jpg in your browser.
 
 Supported statistics functions are:
-
-
+<br/><br/>
 i. min
-
-
+<br/>
 ii. max
-
-
+<br/>
 iii. mean
-
-
+<br/>
 iv. median
-
-
+<br/>
 v. pXXX where XXX is a percentile between 0...100. For example p10 is the 10th percentile of the image, p99 is the 99th percentile
+ ## Prerequisites
+
+<br/>
+You should have the following items:
+
+<br/><br/>
+
+**1)-** AWS account.
+
+
+**2)-** Command line tool.
+
+
+**3)-** ansible.
+
+ <br/>
 
 ## Starting services locally with flask
 * Build a Docker image for Spring Pet Clinic:
