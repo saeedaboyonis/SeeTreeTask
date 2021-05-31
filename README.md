@@ -20,7 +20,6 @@ v. pXXX where XXX is a percentile between 0...100. For example p10 is the 10th p
 
 You should have the following items:
 
-<br/><
 
 **1)-** AWS account.
 
