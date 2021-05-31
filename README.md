@@ -21,13 +21,13 @@ Supported statistics functions are:
 You should have the following items on your system:
 
 
-**1)-** Docker.
+**1)-** Docker: The application tested with Docker Desktop for Windows 
 
 
-**2)-** Command line tool.
+**2)-** Command line tool: The application tested with Ubuntu 18.04 LTS
 
 
-**3)-** Flask.                           `apt install python3-flask`
+**3)-** Flask: You can download with `apt install python3-flask`
 
 
 ## Starting services locally with flask
