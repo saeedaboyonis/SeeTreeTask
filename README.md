@@ -1,4 +1,4 @@
-# # Image Statistics Features Application 
+## Image Statistics Features Application 
 
 
 In this web application we will handles calculation of image statistics, the images are stored in a Cloud Storage Bucket, in order to read files from the bucket you can send a GET request to
