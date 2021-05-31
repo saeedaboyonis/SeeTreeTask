@@ -49,5 +49,5 @@ You should have the following items on your system:
 http://localhost:5000/
 
  
-## Starting services locally without Docker
+## Starting services locally Docker
 
