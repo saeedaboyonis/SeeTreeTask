@@ -40,6 +40,7 @@ You should have the following items on your system:
 
 
 `export FLASK_APP=main.py`
+</br>
 `flask run`
 
 * Run the folowing command and navigate to localhost:8080 in your browser:
