@@ -32,7 +32,7 @@ You should have the following items on your system:
 
 ## Starting services locally with flask
 *  Git all the files to a directory in your system.
-   `git clone `
+   `git clone https://github.com/saeedaboyonis/SeeTreeTask.git`
 
 * Navigate to this directory with command line tool.
 
