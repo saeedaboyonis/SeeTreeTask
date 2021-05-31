@@ -33,8 +33,9 @@ You should have the following items on your system:
 ## Starting services locally with flask
 *  Git all the files to a directory in your system.
 
-* Navigate to this directory.
+* Navigate to this directory with command line tool.
 
+ `cd /the_directory_path/`
 
 * Run the project in flask with these commands :
 
