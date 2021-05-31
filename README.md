@@ -30,6 +30,7 @@ You should have the following items on your system:
 **3)-** Flask: You can download with `apt install python3-flask`
 
 
+**4)-**Python3
 ## Starting application locally with flask
 *  Git all the files to a directory in your system.
 
