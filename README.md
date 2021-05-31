@@ -27,7 +27,7 @@ You should have the following items on your system:
 **2)-** Command line tool.
 
 
-**3)-** Flask.       `apt install python3-flask`
+**3)-** Flask.                           `apt install python3-flask`
 
 
 ## Starting services locally with flask
@@ -44,7 +44,7 @@ You should have the following items on your system:
      `flask run`
      
 * Navigate to this url in your browser:
-* </br>
+   </br>
 http://localhost:5000/
 
  
