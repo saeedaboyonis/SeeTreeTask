@@ -51,7 +51,7 @@ You should have the following items on your system:
 http://localhost:5000/
 
  
-## Starting services locally Docker
+## Starting services locally with Docker
 *  Git all the files to a directory in your system.
 
    `git clone https://github.com/saeedaboyonis/SeeTreeTask.git`
