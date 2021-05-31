@@ -1,7 +1,7 @@
 ## Image Statistics Features Application 
 
 
-In this web application we will handles calculation of image statistics, the images are stored in a Cloud Storage Bucket, in order to read files from the bucket we send a GET request to
+In this web application we will handle calculation of image statistics, the images are stored in a Cloud Storage Bucket, in order to read files from the bucket we send a GET request to
 
 
 https://storage.googleapis.com/seetree-demo-open/FILE_NAME.  
