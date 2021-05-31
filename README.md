@@ -31,14 +31,17 @@ You should have the following items on your system:
 
 
 ## Starting services locally with flask
-* Build a Docker image for Spring Pet Clinic:
+*  Git all the files to a directory in your system.
+
+* Navigate to this directory.
 
 
- `./mvnw compile -Dimage=spetclinic com.google.cloud.tools:jib-maven-plugin:1.0.0:dockerBuild`
-* Run Pet Clinic in Kubernetes:
+* Run the project in flask with these commands :
 
 
-`kubectl apply -f petclinic-deployment`
+`export FLASK_APP=main.py`
+`flask run`
+
 * Run the folowing command and navigate to localhost:8080 in your browser:
 
 
