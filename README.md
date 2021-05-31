@@ -30,7 +30,7 @@ You should have the following items on your system:
 **3)-** Flask: You can download with `apt install python3-flask`
 
 
-## Starting services locally with flask
+## Starting application locally with flask
 *  Git all the files to a directory in your system.
 
    `git clone https://github.com/saeedaboyonis/SeeTreeTask.git`
@@ -51,7 +51,7 @@ You should have the following items on your system:
 http://localhost:5000/
 
  
-## Starting services locally with Docker
+## Starting application locally with Docker
 *  Git all the files to a directory in your system.
 
    `git clone https://github.com/saeedaboyonis/SeeTreeTask.git`
