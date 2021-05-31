@@ -27,7 +27,7 @@ You should have the following items on your system:
 **2)-** Command line tool.
 
 
-**3)-** Flask.
+**3)-** Flask.       `apt install python3-flask`
 
 
 ## Starting services locally with flask
