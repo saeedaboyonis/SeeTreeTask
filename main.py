@@ -71,7 +71,7 @@ def stats(img_name, func):
         data_base.update({img_name: {func: calc}})
     elif func not in data_base[img_name]:
         data_base[img_name].update({func: calc})
-    print(data_base)
+    
     return render_template('Statistics.html', value=res)
 
 
