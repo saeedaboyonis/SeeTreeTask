@@ -43,7 +43,8 @@ You should have the following items on your system:
 </br>
 `flask run`
 
-* Run the folowing command and navigate to localhost:8080 in your browser:
+* Navigate to this url in your browser:
+http://localhost:5000/
 
 
 `    kubectl port-forward deployment/petclinic 8080:8080` 
