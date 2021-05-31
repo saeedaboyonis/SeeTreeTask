@@ -26,9 +26,9 @@ You should have the following items on your system:
 
 **2)-** Command line tool.
 
-<pre>
+
 **3)-** Flask.       `apt install python3-flask`
-</pre>
+
 
 ## Starting services locally with flask
 *  Git all the files to a directory in your system.
@@ -38,11 +38,11 @@ You should have the following items on your system:
 
 * Run the project in flask with these commands :
 
-<pre>
+
     `export FLASK_APP=main.py`
      </br>
      `flask run`
-     </pre>
+     
 * Navigate to this url in your browser:
 * </br>
 http://localhost:5000/
