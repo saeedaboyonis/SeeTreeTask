@@ -18,16 +18,16 @@ iv. median
 v. pXXX where XXX is a percentile between 0...100. For example p10 is the 10th percentile of the image, p99 is the 99th percentile
  ## Prerequisites
 
-You should have the following items:
+You should have the following items on your system:
 
 
-**1)-** AWS account.
+**1)-** docker.
 
 
 **2)-** Command line tool.
 
 
-**3)-** ansible.
+**3)-** flask.
 
 
 ## Starting services locally with flask
