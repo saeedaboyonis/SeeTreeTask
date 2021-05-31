@@ -44,9 +44,9 @@ You should have the following items on your system:
 `flask run`
 
 * Navigate to this url in your browser:
+* </br>
 http://localhost:5000/
 
-
-`    kubectl port-forward deployment/petclinic 8080:8080` 
+ 
 ## Starting services locally without Docker
 
