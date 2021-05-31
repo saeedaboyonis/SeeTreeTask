@@ -35,7 +35,7 @@ You should have the following items on your system:
 
 * Navigate to this directory with command line tool.
 
- `cd /the_directory_path/`
+    `cd /the_directory_path/`
 
 * Run the project in flask with these commands :
 
