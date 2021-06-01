@@ -40,7 +40,7 @@ You should have the following items on your system:
 * Navigate to this directory with command line tool.
 
     `cd /the_directory_path/`
-* Start the application with one of the two following ways.
+* Start the application with one of the following ways.
 ## Starting application locally with flask
 
 * Run the project in flask with these commands :
