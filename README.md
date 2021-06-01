@@ -31,7 +31,8 @@ You should have the following items on your system:
 
 
 **4)-** Python: The application tested with Python3
-## Starting application locally with flask
+
+## Setup the files 
 *  Git all the files to a directory in your system.
 
    `git clone https://github.com/saeedaboyonis/SeeTreeTask.git`
@@ -39,6 +40,8 @@ You should have the following items on your system:
 * Navigate to this directory with command line tool.
 
     `cd /the_directory_path/`
+* start the application with one of the two following ways.
+## Starting application locally with flask
 
 * Run the project in flask with these commands :
 
@@ -53,13 +56,6 @@ http://localhost:5000/
 
  
 ## Starting application locally with Docker
-*  Git all the files to a directory in your system.
-
-   `git clone https://github.com/saeedaboyonis/SeeTreeTask.git`
-
-* Navigate to this directory with command line tool.
-
-    `cd /the_directory_path/`
 
 * Run the project in docker with these commands :
 
