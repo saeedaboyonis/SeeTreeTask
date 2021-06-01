@@ -18,10 +18,10 @@ Supported statistics functions are:
 **v.** pXXX: where XXX is a percentile between 0...100. For example p10 is the 10th percentile of the image, p99 is the 99th percentile
 <br/><br/>
 After starting the application you can access the following services at given location:
-<br/>
+<br/><br/>
 **a.** http://localhost:5000/health : will respond with “OK” to any request
 <br/>
-**b.** http://localhost:5000/stats/IMAGE_FILE_NAME/FUNC_NAME: will calculate FUNC_NAME on the pixels of given IMAGE_FILE_NAME and return the result
+**b.** http://localhost:5000/stats/IMAGE_FILE_NAME/FUNC_NAME: will calculate FUNC_NAME on the pixels of given IMAGE_FILE_NAME 
 <br/>
 For example you can try opening http://localhost:5000/stats/IMG_1.jpg/min in your browser.
 <br/>
