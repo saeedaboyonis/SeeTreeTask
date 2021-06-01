@@ -24,7 +24,7 @@ For the bonus part im using python dictionary data structure as data base to sto
  <br/>
 Everytime the server gets a request it search the data base for identical request, if the result is there return it, if its not compute it and store the new request in the data base.
 <br/>
-In this way we save time computing identical requests and make it more efficient.
+In this way we save time computing identical requests more than once and make it more efficient.
  ## Prerequisites
 
 You should have the following items on your system:
