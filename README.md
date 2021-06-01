@@ -69,7 +69,7 @@ http://localhost:5000/
 http://localhost:5000/
 
 ## Starting application locally with Docker-Compose
-* Run the project in docker-compose with these commands :
+* Run the project in docker-compose with these command :
 
 
     `docker-compose up`
