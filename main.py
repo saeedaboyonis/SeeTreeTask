@@ -26,7 +26,7 @@ def functions(img_name):
 
 @app.route('/health')
 def default():
-    return 'OK'
+    return render_template('Health.html')
 
 
 # The Statistics page route that display the requested function result for an image
@@ -35,8 +35,8 @@ def stats(img_name, func):
     # this code checks if the requested function result already stored in data_base
     if img_name in data_base:
         if func in data_base[img_name]:
-            res = 'The ' + func + ' value of the img_name ('+img_name+') is : ' + data_base[img_name][func]
-            return render_template('Statistics.html', value=res)
+            res = 'The ' + func + ' value of the image ('+img_name+') is : ' + data_base[img_name][func]
+            return render_template('Statistics.html', value=res, img_name=img_name)
     # this code pulls the requested image by its name from the url and transfer it to a numpy array
     # if the image name is wrong or not exist in the Cloud Storage Bucket, return 404 error
     url = 'https://storage.googleapis.com/seetree-demo-open/' + img_name
@@ -53,19 +53,19 @@ def stats(img_name, func):
     percent = func[1:]
     if func == 'min':
         calc = str(np.min(arr))
-        res = 'The minimum value of the img_name ('+img_name+') is : ' + calc
+        res = 'The minimum value of the image ('+img_name+') is : ' + calc
     elif func == 'max':
         calc = str(np.max(arr))
-        res = 'The maximum value of the img_name ('+img_name+') is : ' + calc
+        res = 'The maximum value of the image ('+img_name+') is : ' + calc
     elif func == 'mean':
         calc = str(np.mean(arr))
-        res = 'The mean value of the img_name ('+img_name+') is : ' + calc
+        res = 'The mean value of the image ('+img_name+') is : ' + calc
     elif func == 'median':
         calc = str(np.median(arr))
-        res = 'The median value of the img_name ('+img_name+') is : ' + calc
+        res = 'The median value of the image ('+img_name+') is : ' + calc
     elif func[0] == 'p' and percent.isnumeric() and int(percent) in range(0, 101):
         calc = str(np.percentile(arr, int(percent)))
-        res = 'The ' + str(percent) + '% percentile value of the img_name ('+img_name+') is : ' + calc
+        res = 'The ' + str(percent) + '% percentile value of the image ('+img_name+') is : ' + calc
     else:
         return '<h1>404 Error</h1>  The requested url was not found on this server : <B>Bad function name!</B>'
     # this code adds the new requested image or function to the data_base
@@ -74,7 +74,7 @@ def stats(img_name, func):
     elif func not in data_base[img_name]:
         data_base[img_name].update({func: calc})
 
-    return render_template('Statistics.html', value=res)
+    return render_template('Statistics.html', value=res, img_name=img_name)
 
 
 app.run(host='0.0.0.0', debug=True)

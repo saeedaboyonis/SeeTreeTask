@@ -3,6 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Statistics</title>
+      <style>
+.button {
+  background-color: black;
+  border: 4;
+  color: grey;
+  padding: 15px 32px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+</style>
 </head>
 <body style="background-color:powderblue;">
 <hr color="black">
@@ -10,5 +26,7 @@
 {{value}}
 </h1>
 <hr color="black">
+<button onclick="location.href='http://localhost:5000/functions/{{img_name}}'" type="button" class="button" >
+        Back</button>
 </body>
 </html>

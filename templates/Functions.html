@@ -17,8 +17,9 @@
   margin: 4px 2px;
   cursor: pointer;
 }
+
 </style>
-     <h1 align="center">Functions</h1>
+    <h1 align="center">Functions</h1>
 </head>
 <body style="background-color:powderblue;">
 <hr color="black">
@@ -31,9 +32,23 @@
          Mean</button>
 <button onclick="location.href='http://localhost:5000/stats/{{img_name}}/median'" type="button" class="button">
          Median</button>
-<button onclick="location.href='http://localhost:5000/stats/{{img_name}}/p100'" type="button" class="button">
-         Percentile</button>
+<table border="1">
+    <tr>
+        <th>
+<button  onclick="myFunction()"  type="button" class="button">
+         Percentile</button></th>
+        <th>
+<input type="number"  id="myText" value="50" min="0" max="100" class="button"></th>
+    </tr>
+</table>
+<script>
+function myFunction() {
+   location.href = 'http://localhost:5000/stats/{{img_name}}/p' + document.getElementById("myText").value;
+}
+</script>
 </center>
 <hr color="black">
+<button onclick="location.href='http://localhost:5000/'" type="button" class="button" >
+        Back</button>
 </body>
 </html>
