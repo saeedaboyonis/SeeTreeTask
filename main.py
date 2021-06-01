@@ -45,6 +45,8 @@ def stats(img_name, func):
         img = Image.open(response)
     except Exception as e:
         return "<h1>404 Error</h1> The requested url was not found on this server : <B>Bad img_name file name!</B>"
+    # convert the image from RGB to grayscale mode
+    img = img.convert('L')
     arr = np.array(img)
     # this code checks what is the requested function and calculate the result
     # if the function name is wrong or not exist, return 404 error
@@ -71,7 +73,7 @@ def stats(img_name, func):
         data_base.update({img_name: {func: calc}})
     elif func not in data_base[img_name]:
         data_base[img_name].update({func: calc})
-    
+
     return render_template('Statistics.html', value=res)
 
 
