@@ -46,7 +46,7 @@ You should have the following items on your system:
 * Run the project in flask with these commands :
 
 
-    `export FLASK_APP=main.py`
+    `export FLASK_APP=statswebserver.py`
      </br>
      `flask run`
      
