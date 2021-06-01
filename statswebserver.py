@@ -3,6 +3,7 @@ from flask import Flask, render_template
 import numpy as np
 from PIL import Image
 
+
 # These are global variables
 # data_base: saves the images names, requested functions and their results to use it for future identical requests
 # number_of_images: The number of all images stored in the Cloud Storage Bucket
@@ -44,7 +45,7 @@ def stats(img_name, func):
     try:
         img = Image.open(response)
     except Exception as e:
-        return "<h1>404 Error</h1> The requested url was not found on this server : <B>Bad img_name file name!</B>"
+        return render_template('Error.html', msg='Bad image file name!')
     # convert the image from RGB to grayscale mode
     img = img.convert('L')
     arr = np.array(img)
@@ -67,7 +68,7 @@ def stats(img_name, func):
         calc = str(np.percentile(arr, int(percent)))
         res = 'The ' + str(percent) + '% percentile value of the image ('+img_name+') is : ' + calc
     else:
-        return '<h1>404 Error</h1>  The requested url was not found on this server : <B>Bad function name!</B>'
+        return render_template('Error.html', msg='Bad function name!')
     # this code adds the new requested image or function to the data_base
     if img_name not in data_base:
         data_base.update({img_name: {func: calc}})
