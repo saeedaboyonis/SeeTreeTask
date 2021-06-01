@@ -22,7 +22,9 @@ For the bonus part im using python dictionary data structure as data base to sto
 <br/>
  `data_base = {"image_name": {"min": "0", "max": "0", "mean": "0", "median": "0", "pXXX": "0"}}`
  <br/>
-everytime the server gets a request it search the data base for identical request, if the result is there return it, if its not compute it and store the new request in the data base.
+Everytime the server gets a request it search the data base for identical request, if the result is there return it, if its not compute it and store the new request in the data base.
+<br/>
+In this way we save time computing identical requests and make it more efficient.
  ## Prerequisites
 
 You should have the following items on your system:
