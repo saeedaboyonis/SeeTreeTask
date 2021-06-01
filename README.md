@@ -16,6 +16,11 @@ Supported statistics functions are:
 **iv.** median: computes the median/middle of image pixel values
 <br/>
 **v.** pXXX: where XXX is a percentile between 0...100. For example p10 is the 10th percentile of the image, p99 is the 99th percentile
+
+# Bonus solution
+For the bonus part im using python dictionary data structure as data base to store the new functions requsets in the following format:
+ `data_base = {"image_name": {"min": "0", "max": "0", "mean": "0", "median": "0", "pXXX": "0"}}`
+everytime the server gets a request it search the data base for identical request, if the result is there return it, if its not compute it and store the request in the data base.
  ## Prerequisites
 
 You should have the following items on your system:
