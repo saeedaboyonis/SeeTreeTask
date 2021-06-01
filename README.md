@@ -7,15 +7,15 @@ For example you can try opening https://storage.googleapis.com/seetree-demo-open
 
 Supported statistics functions are:
 <br/><br/>
-**i.** min
+**i.** min: computes the minimum of image pixel values
 <br/>
-**ii.** max
+**ii.** max: computes the maximum of image pixel values
 <br/>
-**iii.** mean
+**iii.** mean: computes the mean/average of image pixel values
 <br/>
-**iv.** median
+**iv.** median: computes the median/middle of image pixel values
 <br/>
-**v.** pXXX where XXX is a percentile between 0...100. For example p10 is the 10th percentile of the image, p99 is the 99th percentile
+**v.** pXXX: where XXX is a percentile between 0...100. For example p10 is the 10th percentile of the image, p99 is the 99th percentile
  ## Prerequisites
 
 You should have the following items on your system:
