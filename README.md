@@ -67,3 +67,13 @@ http://localhost:5000/
 * Navigate to this url in your browser:
    </br>
 http://localhost:5000/
+
+## Starting application locally with Docker-Compose
+* Run the project in docker-compose with these commands :
+
+
+    `docker-compose up`
+     
+* Navigate to this url in your browser:
+   </br>
+http://localhost:5000/
