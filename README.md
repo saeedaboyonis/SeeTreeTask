@@ -60,9 +60,9 @@ http://localhost:5000/
 * Run the project in docker with these commands :
 
 
-    `docker build -t main .`
+    `docker build -t statswebserver .`
      </br>
-     `docker run -id -p 5000:5000 -t main`
+     `docker run -id -p 5000:5000 -t statswebserver`
      
 * Navigate to this url in your browser:
    </br>
