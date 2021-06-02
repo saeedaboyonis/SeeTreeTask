@@ -16,9 +16,9 @@ Supported statistics functions are:
 **iv.** median: computes the median/middle of image pixel values
 <br/>
 **v.** pXXX: where XXX is a percentile between 0...100. For example p10 is the 10th percentile of the image, p99 is the 99th percentile
-<br/><br/>
-##### After starting the application you can access the following services at given location:
-<br/><br/>
+<
+### After starting the application you can access the following services at given location:
+
 **a.** http://localhost:5000/: the home page with all the images
 <br/>
 **b.** http://localhost:5000/functions/IMAGE_FILE_NAME: the functions page with all the available functions for given IMAGE_FILE_NAME
