@@ -68,8 +68,9 @@ You should have the following items on your system:
 ## Starting application locally with flask
 
 * Run the project in flask with these commands :
-
-
+</br>
+    `pip install -r requirements.txt`
+    </br>
     `export FLASK_APP=statswebserver.py`
      </br>
      `flask run`
