@@ -15,7 +15,7 @@ NUMBER_OF_IMAGES = 10
 app = Flask(__name__)
 
 
-# This code handle any wrong url
+# This code handles any wrong url
 @app.errorhandler(404)
 def not_found(e):
     return render_template("Error.html", msg='URL Not Found!')
