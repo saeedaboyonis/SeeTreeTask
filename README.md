@@ -56,6 +56,8 @@ You should have the following items on your system:
 
 **4)-** Python: The application tested with Python3
 
+**5)-** Git: You can download with `apt install git`
+
 ## Setup the files 
 *  Git all the files to a directory in your system.
 
