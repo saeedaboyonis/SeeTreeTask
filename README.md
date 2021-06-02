@@ -17,7 +17,7 @@ Supported statistics functions are:
 <br/>
 **v.** pXXX: where XXX is a percentile between 0...100. For example p10 is the 10th percentile of the image, p99 is the 99th percentile
 <
-### After starting the application you can access the following services at given location:
+#### After starting the application you can access the following services at given location:
 
 **a.** http://localhost:5000/: the home page with all the images
 <br/>
@@ -32,7 +32,7 @@ For example you can try opening  http://localhost:5000/functions/IMG_1.jpg in yo
 For example you can try opening http://localhost:5000/stats/IMG_1.jpg/min in your browser.
 <br/>
 It should print: `The minimum value of the image (IMG_1.jpg) is : 4` 
-### Bonus solution
+#### Bonus solution
 For the bonus part im using python dictionary data structure as data base to store the new functions requsets in the following format:
 <br/>
  `data_base = {"image_name": {"min": "0", "max": "0", "mean": "0", "median": "0", "pXXX": "0"}}`
