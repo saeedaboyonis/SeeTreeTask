@@ -23,7 +23,7 @@ After starting the application you can access the following services at given lo
 <br/>
 **b.** http://localhost:5000/functions/IMAGE_FILE_NAME: the functions page with all the available functions for given IMAGE_FILE_NAME
 <br/>
-For example you can try opening  http://localhost:5000/functions/IMG_1/jpg in your browser.
+For example you can try opening  http://localhost:5000/functions/IMG_1.jpg in your browser.
 <br/>
 **c.** http://localhost:5000/health : will respond with “OK” to any request
 <br/>
