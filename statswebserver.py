@@ -18,7 +18,7 @@ app = Flask(__name__)
 # This code handle any wrong url
 @app.errorhandler(404)
 def not_found(e):
-    return render_template("Error.html", msg='Not Found!')
+    return render_template("Error.html", msg='URL Not Found!')
 
 
 # The home page route that display all images from the Cloud Storage Bucket
